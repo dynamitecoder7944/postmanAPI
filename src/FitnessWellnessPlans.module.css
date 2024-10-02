@@ -1,0 +1,236 @@
+/* Overall Container Styles */
+/* Overall Container Styles */
+.container {
+  display: flex; /* Use flexbox to arrange child elements side by side */
+  width: 100%; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  align-items: stretch; /* Stretch items to be equal height */
+}
+
+/* Form Container Styles */
+.formContainer {
+  flex: 1; /* Take up 50% of the width */
+  padding: 40px; /* Add padding for spacing */
+  background: linear-gradient(135deg, #e2f3f5 0%, #ffffff 100%);
+   /* Round the corners */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Form Title Styles */
+h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-family: 'Arial', sans-serif; /* Font styling */
+  color: #333; /* Dark text color */
+}
+
+/* Form Element Styles */
+form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Label Styles */
+form label {
+  display: block; /* Stack labels vertically */
+  margin-bottom: 10px; /* Spacing between elements */
+  font-weight: bold; /* Bold labels */
+}
+
+/* Input and Select Styles */
+input[type="number"],
+input[type="text"],
+select {
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Round corners */
+  margin-bottom: 20px; /* Space below each input */
+  transition: border-color 0.3s; /* Transition for border color */
+  font-size: 16px; /* Font size */
+}
+
+/* Input Focus Styles */
+input:focus,
+select:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Increased padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above the button */
+  font-size: 18px; /* Larger font size */
+  transition: background-color 0.3s, transform 0.3s; /* Transition for background color */
+}
+
+/* Button Hover Effects */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: translateY(-2px); /* Slightly lift button on hover */
+}
+
+/* Loading Text Styles */
+.loadingText {
+  text-align: center; /* Center the loading text */
+  font-style: italic; /* Italic loading text */
+  color: #666; /* Lighter color */
+}
+
+/* Error Message Styles */
+.errorMessage {
+  color: red; /* Red text for errors */
+  text-align: center; /* Center the error message */
+}
+
+/* Diet and Exercise Plan Styles */
+h3 {
+  margin-top: 20px; /* Space above the headings */
+  color: #4CAF50; /* Green color for headings */
+}
+
+ul {
+  list-style-type: square; /* Square bullets for lists */
+  padding-left: 20px; /* Indent list */
+}
+
+li {
+  margin-bottom: 10px; /* Space below list items */
+}
+
+/* Image Container Styles */
+.imageContainer {
+  flex: 1; /* Take up 50% of the width */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Responsive Image */
+.imageContainer img {
+  max-width: 90%; /* Limit image width */
+ margin-bottom: 30px; /* Maintain aspect ratio */
+  /* Round corners of the image */
+}
+
+.container {
+  display: flex; /* Use flexbox to arrange child elements side by side */
+  width: 100%; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  align-items: stretch; /* Stretch items to be equal height */
+}
+
+/* Form Container Styles */
+.formContainer {
+  flex: 1; /* Take up 50% of the width */
+  padding: 40px; /* Add padding for spacing */
+  background: linear-gradient(135deg, #e2f3f5 0%, #ffffff 100%);
+  /* Round the corners */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Image Container Styles */
+.imageContainer {
+  flex: 1; /* Take up 50% of the width */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Responsive Image */
+.imageContainer img {
+  max-width: 90%; /* Limit image width */
+  height: auto; /* Maintain aspect ratio */
+   
+}
+
+/* Form Element Styles */
+form label {
+  display: block; /* Stack labels vertically */
+  margin-bottom: 10px; /* Spacing between elements */
+  color: #9498ae;
+}
+
+/* Button Styles */
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above the button */
+}
+
+/* Button Hover Effects */
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* Results Container Styles */
+.resultsContainer {
+  margin-top: 70px; /* Space above results */
+  padding: 20px; /* Padding for results container */
+  background: #f9f9f9; /* Light background for results */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+/* Diet Plan Styles */
+.dietPlan {
+  margin-bottom: 20px; /* Space below diet plan */
+}
+
+/* Exercise Plan Styles */
+.exercisePlan {
+  margin-bottom: 20px; /* Space below exercise plan */
+}
+
+/* Diet Plan Heading Styles */
+.dietPlan h3 {
+  color: #4CAF50; /* Green color for headings */
+}
+
+/* Exercise Plan Heading Styles */
+.exercisePlan h3 {
+  color: #4CAF50; /* Green color for headings */
+}
+
+/* Diet Plan List Styles */
+.dietPlan ul {
+  list-style-type: square; /* Square bullets for diet items */
+  padding-left: 20px; /* Indent list */
+}
+
+/* Diet Plan List Item Styles */
+.dietPlan li {
+  margin-bottom: 10px; /* Space below list items */
+  font-size: 16px; /* Font size for diet items */
+}
+
+/* Exercise Plan Text Styles */
+.exercisePlan p {
+  font-size: 16px; /* Font size for exercise plan text */
+  line-height: 1.5; /* Improve line height for readability */
+  color: #333; /* Dark text color */
+}
+
+/* No Results Message Styles */
+.noResults {
+  text-align: center; /* Center text for no results message */
+  color: #666; /* Lighter text color */
+  font-style: italic; /* Italicize the message */
+  margin-top: 20px; /* Space above the message */
+}
+

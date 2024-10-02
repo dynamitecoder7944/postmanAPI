@@ -1,0 +1,76 @@
+.unique-symptom-checker {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f8ff; /* Light blue background */
+    padding-top: 20px; /* Add padding to top */
+}
+
+.unique-calm-message {
+    text-align: center;
+    color: #555;
+    margin-top: 300px;
+}
+
+.unique-form-container {
+    text-align: center;
+    width: 100%; /* Full width to allow centering */
+}
+
+.black-heading {
+    color: black; /* Ensure heading is in black */
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    margin-bottom: 10px; /* Add margin to separate from button */
+}
+
+.unique-button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.unique-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.unique-capsule-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.unique-capsule {
+    background-color: #304994;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.unique-capsule:hover {
+    transform: scale(1.05); /* Scale on hover */
+}
+
+.unique-drug-info {
+    margin-top: 20px;
+}
+
+.unique-error {
+    color: red;
+}

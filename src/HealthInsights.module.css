@@ -1,0 +1,126 @@
+/* src/components/HealthInsights.module.css */
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #fffdfd;
+}
+
+.challengesContainer {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.challengesTitle {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fef6f6;
+}
+/* src/components/HealthInsights.module.css */
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.challengesContainer {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.challengesTitle {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.challengesList {
+    list-style: none;
+    padding: 0;
+}
+
+.challengeItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.challengeLabel {
+    font-size: 1rem;
+    color: #f9f1f1;
+}
+
+.insightsContainer {
+    margin-top: 20px;
+}
+
+.insightBox {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.insightTitle {
+    margin: 0;
+    color: #007bff; /* Blue color for insights titles */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+.insightBox h3 {
+    margin: 0; /* Remove default margin */
+    color: #fff9f9;
+}
+
+
+.challengesList {
+    list-style: none;
+    padding: 0;
+}
+
+.challengeItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.challengeLabel {
+    font-size: 1rem;
+    color: #333;
+}
+
+.insightsContainer {
+    margin-top: 20px;
+}
+
+.insightBox {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.insightBox h3 {
+    margin: 0;
+}
